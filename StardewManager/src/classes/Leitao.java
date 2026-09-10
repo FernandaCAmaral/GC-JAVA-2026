@@ -2,8 +2,8 @@ package classes;
 
 public class Leitao extends PorcoMae {
 
-    public Leitao(String nome, int idade, String raca) {
-        super(nome, idade, raca, 0);
+    public Leitao(String nome, String raca, int idade) {
+        super(nome, raca, idade, 0);
     }
 
     @Override

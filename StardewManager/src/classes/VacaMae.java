@@ -7,7 +7,7 @@ public class VacaMae implements Animal {
     private int idade;
     private int baldesDeLeite;
 
-    public VacaMae(String nome, int idade, String raca, int baldesDeLeite) {
+    public VacaMae(String nome, String raca, int idade, int baldesDeLeite) {
         this.nome = nome;
         this.idade = idade;
         this.raca = raca;
