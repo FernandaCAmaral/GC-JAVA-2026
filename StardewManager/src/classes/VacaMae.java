@@ -1,3 +1,6 @@
+package classes;
+import interfaces.Animal;
+
 public class VacaMae implements Animal {
     private String nome;
     private String raca;

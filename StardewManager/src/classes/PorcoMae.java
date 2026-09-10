@@ -1,14 +1,17 @@
-public class OvelhaMae implements Animal {
+package classes;
+import interfaces.Animal;
+
+public class PorcoMae implements Animal {
     private String nome;
     private String raca;
     private int idade;
-    private int quantidadeLa;
+    private int qntTrufas;
 
-    public OvelhaMae(String nome, String raca, int idade, int quantidadeLa) {
+    public PorcoMae(String nome, String raca, int idade, int qntTrufas) {
         this.nome = nome;
         this.raca = raca;
         this.idade = idade;
-        this.quantidadeLa = quantidadeLa;
+        this.qntTrufas = qntTrufas;
     }
 
     @Override
@@ -28,16 +31,17 @@ public class OvelhaMae implements Animal {
 
     @Override
     public String emitirSom() {
-        return "Mééé!";
+        return "Óinc!";
     }
 
     @Override
     public String coletarProduto() {
-        if (quantidadeLa == 0) {
-            return nome + " não tem lã pra coletar agora.";
+        if (qntTrufas == 0) {
+            return nome + " não tem ovos pra coletar agora.";
         }
-        String resultado = nome + " produziu " + quantidadeLa + " pedaço(s) de lã!";
-        quantidadeLa = 0;
+        String resultado = nome + " produziu " + qntTrufas + " ovo(s)!";
+        qntTrufas = 0;
         return resultado;
     }
+
 }

@@ -1,3 +1,6 @@
+package classes;
+import interfaces.Animal;
+
 public class GalinhaMae implements Animal {
     private String nome;
     private String raca;
@@ -39,6 +42,5 @@ public class GalinhaMae implements Animal {
         String resultado = nome + " produziu " + ovosNoNinho + " ovo(s)!";
         ovosNoNinho = 0;
         return resultado;
-    }
     }
 }

@@ -1,3 +1,5 @@
+package interfaces;
+
 public interface Animal {
     String getNome();
     int getIdade();
