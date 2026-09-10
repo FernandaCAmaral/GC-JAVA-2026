@@ -37,9 +37,9 @@ public class PorcoMae implements Animal {
     @Override
     public String coletarProduto() {
         if (qntTrufas == 0) {
-            return nome + " não tem ovos pra coletar agora.";
+            return nome + " não tem trufas pra coletar agora.";
         }
-        String resultado = nome + " produziu " + qntTrufas + " ovo(s)!";
+        String resultado = nome + " produziu " + qntTrufas + " trufa(s)!";
         qntTrufas = 0;
         return resultado;
     }
