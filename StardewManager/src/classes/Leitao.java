@@ -7,6 +7,11 @@ public class Leitao extends PorcoMae {
     }
 
     @Override
+    public String getTipo() {
+        return "Leitão";
+    }
+
+    @Override
     public String coletarProduto() {
         return getNome() + " é um leitãozinho e ainda não produz trufas.";
     }

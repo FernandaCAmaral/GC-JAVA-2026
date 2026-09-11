@@ -30,6 +30,11 @@ public class PorcoMae implements Animal {
     }
 
     @Override
+    public String getTipo() {
+        return "Porco";
+    }
+
+    @Override
     public String emitirSom() {
         return "Óinc!";
     }

@@ -35,6 +35,11 @@ public class VacaMae implements Animal {
     }
 
     @Override
+    public String getTipo() {
+        return "Vaca";
+    }
+
+    @Override
     public String coletarProduto() {
         if (baldesDeLeite == 0) {
             return nome + " não tem leite pra coletar agora.";

@@ -7,6 +7,11 @@ public class Pintinho extends GalinhaMae {
     }
 
     @Override
+    public String getTipo() {
+        return "Pintinho";
+    }
+
+    @Override
     public String emitirSom() {
         return "piu piu!";
     }

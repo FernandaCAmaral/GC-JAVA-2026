@@ -49,7 +49,7 @@ public class stardewManager {
     private static void verAnimais(List<Animal> curral) {
         System.out.println("\n--- Animais do curral ---");
         for (Animal a : curral) {
-            System.out.println("\n" + a.getNome());
+            System.out.println("\n" + a.getNome() + " (" + a.getTipo() + ")");
             System.out.println("  Raça: " + a.getRaca());
             System.out.println("  Idade: " + a.getIdade() + " ano(s)");
             System.out.println("  Som: " + a.emitirSom());
@@ -59,7 +59,7 @@ public class stardewManager {
     private static void coletarProdutos(List<Animal> curral) {
         System.out.println("\n--- Coleta de produtos ---");
         for (Animal a : curral) {
-            System.out.println(a.coletarProduto());
+            System.out.println("-> " + a.coletarProduto());
         }
     }
 }

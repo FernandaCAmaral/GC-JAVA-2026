@@ -7,6 +7,11 @@ public class Bezerro extends VacaMae {
     }
 
     @Override
+    public String getTipo() {
+        return "Bezerro";
+    }
+
+    @Override
     public String coletarProduto() {
         return getNome() + " é um bezerro e ainda não produz leite.";
     }

@@ -30,6 +30,11 @@ public class OvelhaMae implements Animal {
     }
 
     @Override
+    public String getTipo() {
+        return "Ovelha";
+    }
+
+    @Override
     public String emitirSom() {
         return "Mééé!";
     }

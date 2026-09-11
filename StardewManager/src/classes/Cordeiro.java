@@ -7,6 +7,11 @@ public class Cordeiro extends OvelhaMae {
     }
 
     @Override
+    public String getTipo() {
+        return "Cordeiro";
+    }
+
+    @Override
     public String coletarProduto() {
         return getNome() + " é um cordeiro e ainda não produz lã.";
     }
