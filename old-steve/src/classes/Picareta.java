@@ -88,4 +88,3 @@ public class Picareta {
     public int getDurabilidade() { return durabilidade; }
     public int getForca() { return forca; }
 }
-
