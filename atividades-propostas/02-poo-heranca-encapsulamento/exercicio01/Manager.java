@@ -1,3 +1,5 @@
+package exercicio01;
+
 public class Manager extends Employee {
     private double bonus;
 

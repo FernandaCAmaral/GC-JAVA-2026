@@ -1,3 +1,5 @@
+package exercicio01;
+
 public class Employee {
     protected String name;
     protected double baseSalary;
