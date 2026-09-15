@@ -12,10 +12,11 @@ O projeto foi estruturado seguindo as convenções e padrões do Java:
 
 ```text
 GC-Java-2026/
-└── src/                        # Raiz do código-fonte (Sources Root)
-    ├── oldStevePOO.java        # Classe principal contendo a execução (main)
-    └── classes/                # Pacote com os modelos de objetos
-        └── Picareta.java       # Definição e comportamentos da classe Picareta
+└── old-steve/                 
+    └── src/                   # Raiz do código-fonte (Sources Root) 
+        ├── oldStevePOO.java   # Classe principal contendo a execução (main)    
+        └── classes/           # Pacote com os modelos de objetos
+            └── Picareta.java  # Definição e comportamentos da classe Picareta
 ```
 ## 🎯 Conceitos de POO Aplicados
 
