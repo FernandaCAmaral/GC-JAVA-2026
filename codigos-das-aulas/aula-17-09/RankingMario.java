@@ -72,6 +72,25 @@ public class RankingMario {
         for (String rosterKey : roster) {
             System.out.println(rosterKey);
         }
+
+        System.out.println("\n====== PRÁTICA QUEUE ======");
+
+        PriorityQueue<Integer> fila = new PriorityQueue<>();
+
+        // Goomba = 10, Piranha = 15, Koopa = 20
+        fila.add(10);
+        fila.add(5);
+        fila.add(15);
+
+        // Quem aparece primeiro? (sem remover)
+        System.out.println("Primeiro elemento: " + fila.peek()); // 10 Goomba
+
+        // poll: Goomba entra em cena e sai da fila
+        System.out.println(fila.poll()); // 10
+        System.out.println(fila.peek()); // 15
+        System.out.println(fila.poll()); // 15
+        System.out.println(fila.peek()); // 20
+
     }
 
 }
