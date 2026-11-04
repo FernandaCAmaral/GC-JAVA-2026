@@ -9,8 +9,9 @@ public class exercicio04 {
         double salarioUsuario = sc.nextDouble();
 
         double qntdSalarioMinimo = quantosSalariosMinimos(SALARIO_MINIMO, salarioUsuario);
-        System.out.println("Seu salário é equivalente à: " + qntdSalarioMinimo + " salários minímos.");
+        System.out.printf("Seu salário é equivalente à: %.2f salário(s) minímo(s)", qntdSalarioMinimo);
 
+        sc.close();
     }
 
     static double quantosSalariosMinimos(double salarioMinimo, double salarioUser) {
